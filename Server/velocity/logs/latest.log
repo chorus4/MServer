@@ -1,0 +1,81 @@
+[12:32:14] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.2.0-SNAPSHOT (git-cd35e8f8-b226)...
+[12:32:14] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[12:32:14] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use NIO channels, Java compression, Java ciphers
+[12:32:14] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[12:32:14] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[12:32:14] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 0 plugins
+[12:32:14] [Netty NIO Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:25565
+[12:32:14] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (0,8s)!
+[12:47:26] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] chorus2 (/127.0.0.1:60147) has connected
+[12:47:26] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] chorus2 -> lobby has connected
+[12:54:09] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] chorus2 -> standard has connected
+[12:54:09] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] chorus2 -> lobby has disconnected
+[12:54:16] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] chorus2 -> lobby has connected
+[12:54:16] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] chorus2 -> standard has disconnected
+[12:54:35] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] chorus2 (/127.0.0.1:60147) has disconnected
+[12:54:35] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] chorus2 -> lobby has disconnected
+[12:54:36] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] chorus2 (/127.0.0.1:60185) has connected
+[12:54:36] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] chorus2 -> lobby has connected
+[12:55:40] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] chorus2 (/127.0.0.1:60185) has disconnected
+[12:55:40] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] chorus2 -> lobby has disconnected
+[12:55:41] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] chorus2 (/127.0.0.1:60199) has connected
+[12:55:41] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] chorus2 -> lobby has connected
+[12:56:12] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] chorus2 (/127.0.0.1:60199) has disconnected
+[12:56:12] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] chorus2 -> lobby has disconnected
+[12:56:13] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] chorus2 (/127.0.0.1:60209) has connected
+[12:56:13] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] chorus2 -> lobby has connected
+[12:56:49] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] chorus2 (/127.0.0.1:60209) has disconnected
+[12:56:49] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] chorus2 -> lobby has disconnected
+[12:56:50] [Netty NIO Worker #9/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] chorus2 (/127.0.0.1:60223) has connected
+[12:56:50] [Netty NIO Worker #9/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] chorus2 -> lobby has connected
+[12:57:30] [Netty NIO Worker #9/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] chorus2 (/127.0.0.1:60223): kicked from server lobby: Server closed
+[12:57:30] [Netty NIO Worker #9/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] chorus2 -> lobby has disconnected
+[12:57:30] [Netty NIO Worker #9/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] chorus2 (/127.0.0.1:60223) has disconnected: Вы были кикнуты с сервера lobby: Server closed
+[12:57:44] [Netty NIO Worker #10/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] chorus2 (/127.0.0.1:60231) has connected
+[12:57:44] [Netty NIO Worker #10/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] chorus2 (/127.0.0.1:60231): unable to connect to server lobby
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /127.0.0.1:25567
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
+	at sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946) ~[?:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337) ~[velocity.jar:3.2.0-SNAPSHOT (git-cd35e8f8-b226)]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) ~[velocity.jar:3.2.0-SNAPSHOT (git-cd35e8f8-b226)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776) ~[velocity.jar:3.2.0-SNAPSHOT (git-cd35e8f8-b226)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[velocity.jar:3.2.0-SNAPSHOT (git-cd35e8f8-b226)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[velocity.jar:3.2.0-SNAPSHOT (git-cd35e8f8-b226)]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[velocity.jar:3.2.0-SNAPSHOT (git-cd35e8f8-b226)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.2.0-SNAPSHOT (git-cd35e8f8-b226)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.2.0-SNAPSHOT (git-cd35e8f8-b226)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.2.0-SNAPSHOT (git-cd35e8f8-b226)]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[12:57:44] [Netty NIO Worker #10/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] chorus2 (/127.0.0.1:60231) has disconnected: Unable to connect you to lobby. Please try again later.
+[12:58:29] [Velocity Async Event Executor - #3/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: Heap dump saved to ./dumps/heap-dump-2023-03-06-12-58-29.hprof
+[12:58:41] [Velocity Async Event Executor - #4/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: Velocity 3.2.0-SNAPSHOT (git-cd35e8f8-b226)
+[12:58:41] [Velocity Async Event Executor - #4/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: Copyright 2018-2023 Velocity Contributors. Velocity is licensed under the terms of the GNU General Public License v3.
+[12:58:41] [Velocity Async Event Executor - #4/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: velocitypowered.com - GitHub
+[12:58:46] [Netty NIO Worker #11/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] chorus2 (/127.0.0.1:60243) has connected
+[12:58:46] [Netty NIO Worker #11/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] chorus2 -> lobby has connected
+[12:59:27] [Netty NIO Worker #11/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] chorus2 (/127.0.0.1:60243) has disconnected
+[12:59:27] [Netty NIO Worker #11/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] chorus2 -> lobby has disconnected
+[12:59:28] [Netty NIO Worker #13/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] chorus2 (/127.0.0.1:60257) has connected
+[12:59:28] [Netty NIO Worker #13/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] chorus2 -> lobby has connected
+[13:00:43] [Netty NIO Worker #13/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] chorus2 (/127.0.0.1:60257) has disconnected
+[13:00:43] [Netty NIO Worker #13/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] chorus2 -> lobby has disconnected
+[13:00:44] [Netty NIO Worker #15/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] chorus2 (/127.0.0.1:60270) has connected
+[13:00:44] [Netty NIO Worker #15/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] chorus2 -> lobby has connected
+[13:05:56] [Netty NIO Worker #15/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] chorus2 (/127.0.0.1:60270) has disconnected
+[13:05:56] [Netty NIO Worker #15/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] chorus2 -> lobby has disconnected
+[13:05:57] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] chorus2 (/127.0.0.1:60300) has connected
+[13:05:57] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] chorus2 -> lobby has connected
+[13:06:18] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] chorus2 (/127.0.0.1:60300) has disconnected
+[13:06:18] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] chorus2 -> lobby has disconnected
+[13:06:41] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] chorus2 (/127.0.0.1:60317) has connected
+[13:06:41] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] chorus2 -> lobby has connected
+[13:07:01] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] chorus2 -> standard has connected
+[13:07:01] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] chorus2 -> lobby has disconnected
+[13:08:44] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] chorus2 -> lobby has connected
+[13:08:44] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] chorus2 -> standard has disconnected
+[13:10:03] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] chorus2 (/127.0.0.1:60317) has disconnected
+[13:10:03] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] chorus2 -> lobby has disconnected
+[13:27:11] [Thread-0/INFO] [com.velocitypowered.proxy.VelocityServer]: Shutting down the proxy...
+[13:27:11] [Thread-0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Closing endpoint /0.0.0.0:25565

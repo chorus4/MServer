@@ -1,0 +1,69 @@
+[13:28:32] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[13:28:34] [Worker-Main-1/INFO]: Loaded 7 recipes
+[13:28:36] [Server thread/INFO]: Starting minecraft server version 1.18.2
+[13:28:36] [Server thread/INFO]: Loading properties
+[13:28:36] [Server thread/INFO]: This server is running Patina version git-Paper-"dfc87b1" (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT) (Git: dfc87b1 on ver/1.18.2)
+[13:28:36] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[13:28:36] [Server thread/INFO]: Using 4 threads for Netty based IO
+[13:28:36] [Server thread/WARN]: [Pufferfish] To improve performance, timings have been disabled by default
+[13:28:36] [Server thread/WARN]: [Pufferfish] You can still use timings by using /timings on, but they will not start on server startup unless you set timings.really-enabled to true in paper.yml
+[13:28:36] [Server thread/WARN]: [Pufferfish] If you would like to disable this message, either set timings.really-enabled to true or timings.enabled to false.
+[13:28:36] [Server thread/INFO]: [Pufferfish] Max SIMD vector size on this system is 256 bits (int)
+[13:28:36] [Server thread/INFO]: [Pufferfish] Max SIMD vector size on this system is 256 bits (float)
+[13:28:36] [Server thread/INFO]: [Pufferfish] SIMD operations detected as functional. Will replace some operations with faster versions.
+[13:28:36] [Server thread/INFO]: Default game type: SURVIVAL
+[13:28:36] [Server thread/INFO]: Generating keypair
+[13:28:36] [Server thread/INFO]: Starting Minecraft server on *:25567
+[13:28:36] [Server thread/INFO]: Using default channel type
+[13:28:36] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
+[13:28:36] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[13:28:37] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.2
+[13:28:37] [Server thread/INFO]: [AutoReload] Loading AutoReload v1.04
+[13:28:37] [Server thread/INFO]: [LobbyPlugin] Loading LobbyPlugin v1.0
+[13:28:37] [Server thread/INFO]: [PlugManX] Loading PlugManX v2.3.1
+[13:28:37] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:28:37] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.3.1
+[13:28:37] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:28:37] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:28:37] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:28:37] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:28:37] [Server thread/INFO]: Preparing level "world"
+[13:28:38] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:28:38] [Server thread/INFO]: Time elapsed: 307 ms
+[13:28:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[13:28:38] [Server thread/INFO]: Time elapsed: 242 ms
+[13:28:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[13:28:39] [Server thread/INFO]: Time elapsed: 382 ms
+[13:28:39] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.2
+[13:28:39] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[13:28:39] [Server thread/INFO]: [AutoReload] Enabling AutoReload v1.04
+[13:28:39] [Server thread/INFO]: [AutoReload] Found plugin Build.jar
+[13:28:39] [Server thread/INFO]: [AutoReload] Found plugin autoreload-1.4-SNAPSHOT.jar
+[13:28:39] [Server thread/INFO]: [AutoReload] Found plugin PlugManX.jar
+[13:28:39] [Server thread/INFO]: [AutoReload] Found plugin PlaceholderAPI-2.11.2.jar
+[13:28:39] [Server thread/INFO]: [LobbyPlugin] Enabling LobbyPlugin v1.0
+[13:28:39] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[13:28:39] [Server thread/INFO]: Running delayed init tasks
+[13:28:39] [Server thread/INFO]: Done (3.827s)! For help, type "help"
+[13:28:39] [Server thread/INFO]: Timings Reset
+[13:28:40] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: pinger [1.0.1]
+[13:28:40] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: player [2.0.4]
+[13:28:40] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion playerstats due to a missing plugin: PlayerStats
+[13:28:40] [Server thread/INFO]: 2 placeholder hook(s) registered!
+[13:34:50] [Server thread/INFO]: Stopping the server
+[13:34:50] [Server thread/INFO]: Stopping server
+[13:34:50] [Server thread/INFO]: [PlugManX] Disabling PlugManX v2.3.1
+[13:34:50] [Server thread/INFO]: [LobbyPlugin] Disabling LobbyPlugin v1.0
+[13:34:50] [Server thread/INFO]: [AutoReload] Disabling AutoReload v1.04
+[13:34:50] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.2
+[13:34:50] [Server thread/INFO]: Saving players
+[13:34:50] [Server thread/INFO]: Saving worlds
+[13:34:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13:34:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[13:34:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[13:34:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:34:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:34:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:34:52] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13:34:52] [Server thread/INFO]: Flushing Chunk IO
+[13:34:52] [Server thread/INFO]: Closing Thread Pool

@@ -1,0 +1,13 @@
+name: Plegin
+version: '${project.version}'
+main: me.egorich.plegin.Main
+api-version: 1.16
+authors: [ Egorich ]
+description: This plugin is very useful
+
+commands:
+  shutdown:
+    description: Shutting down this server
+    aliases:
+      - stop
+    usage: /shutdown

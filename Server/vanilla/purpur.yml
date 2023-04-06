@@ -1,0 +1,37 @@
+# This is the main configuration file for Purpur.
+# As you can see, there's tons to configure. Some options may impact gameplay, so use
+# with caution, and make sure you know what each option does before configuring.
+#
+# If you need help with the configuration or have any questions related to Purpur,
+# join us in our Discord guild.
+#
+# Website: https://purpurmc.org 
+# Docs: https://purpurmc.org/docs 
+
+verbose: false
+settings:
+  use-alternate-keepalive: false
+  lagging-threshold: 19.0
+  logger:
+    suppress-init-legacy-material-errors: false
+    suppress-ignored-advancement-warnings: false
+    suppress-unrecognized-recipe-errors: false
+    suppress-setblock-in-far-chunk-errors: false
+  tps-catchup: true
+world-settings:
+  default:
+    blocks:
+      sign:
+        right-click-edit: false
+        allow-colors: false
+      turtle_egg:
+        break-from-exp-orbs: true
+        break-from-items: true
+        break-from-minecarts: true
+    mobs:
+      squid:
+        immune-to-EAR: true
+      villager:
+        brain-ticks: 1
+        use-brain-ticks-only-when-lagging: true
+config-version: 27

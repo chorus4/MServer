@@ -1,0 +1,14 @@
+[17:33:37] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[17:33:37] [main/FATAL]: Failed to start the minecraft server
+net.minecraft.server.v1_16_R3.SessionLock$ExceptionWorldConflict: /Users/egorburian/Downloads/serv/lobby/./world/session.lock: already locked (possibly by other Minecraft instance?)
+	at net.minecraft.server.v1_16_R3.SessionLock$ExceptionWorldConflict.a(SourceFile:98) ~[patched_1.16.5.jar:git-Paper-790]
+	at net.minecraft.server.v1_16_R3.SessionLock.a(SourceFile:44) ~[patched_1.16.5.jar:git-Paper-790]
+	at net.minecraft.server.v1_16_R3.Convertable$ConversionSession.<init>(Convertable.java:257) ~[patched_1.16.5.jar:git-Paper-790]
+	at net.minecraft.server.v1_16_R3.Convertable.c(Convertable.java:227) ~[patched_1.16.5.jar:git-Paper-790]
+	at net.minecraft.server.v1_16_R3.Main.main(Main.java:154) ~[patched_1.16.5.jar:git-Paper-790]
+	at org.bukkit.craftbukkit.Main.main(Main.java:289) ~[patched_1.16.5.jar:git-Paper-790]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at io.papermc.paperclip.Paperclip.main(Paperclip.java:58) ~[paper.jar:?]

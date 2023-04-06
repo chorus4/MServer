@@ -1,0 +1,59 @@
+[12:33:06] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12:33:07] [Worker-Main-1/INFO]: Loaded 7 recipes
+[12:33:09] [Server thread/INFO]: Starting minecraft server version 1.18.2
+[12:33:09] [Server thread/INFO]: Loading properties
+[12:33:09] [Server thread/INFO]: This server is running Patina version git-Paper-"dfc87b1" (MC: 1.18.2) (Implementing API version 1.18.2-R0.1-SNAPSHOT) (Git: dfc87b1 on ver/1.18.2)
+[12:33:09] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:33:09] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:33:09] [Server thread/WARN]: [Pufferfish] To improve performance, timings have been disabled by default
+[12:33:09] [Server thread/WARN]: [Pufferfish] You can still use timings by using /timings on, but they will not start on server startup unless you set timings.really-enabled to true in paper.yml
+[12:33:09] [Server thread/WARN]: [Pufferfish] If you would like to disable this message, either set timings.really-enabled to true or timings.enabled to false.
+[12:33:09] [Server thread/INFO]: [Pufferfish] Max SIMD vector size on this system is 256 bits (int)
+[12:33:09] [Server thread/INFO]: [Pufferfish] Max SIMD vector size on this system is 256 bits (float)
+[12:33:09] [Server thread/INFO]: [Pufferfish] SIMD operations detected as functional. Will replace some operations with faster versions.
+[12:33:09] [Server thread/INFO]: Default game type: SURVIVAL
+[12:33:09] [Server thread/INFO]: Generating keypair
+[12:33:09] [Server thread/INFO]: Starting Minecraft server on *:25568
+[12:33:09] [Server thread/INFO]: Using default channel type
+[12:33:09] [Server thread/INFO]: Paper: Using Java 11 compression from Velocity.
+[12:33:09] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[12:33:10] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:33:10] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:33:10] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:33:10] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:33:10] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:33:10] [Server thread/INFO]: Preparing level "world"
+[12:33:11] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:33:11] [Server thread/INFO]: Time elapsed: 320 ms
+[12:33:11] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[12:33:11] [Server thread/INFO]: Time elapsed: 324 ms
+[12:33:11] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[12:33:12] [Server thread/INFO]: Time elapsed: 313 ms
+[12:33:12] [Server thread/INFO]: Running delayed init tasks
+[12:33:12] [Server thread/INFO]: Done (2.906s)! For help, type "help"
+[12:33:12] [Server thread/INFO]: Timings Reset
+[12:54:09] [User Authenticator #1/INFO]: UUID of player chorus2 is 9e7bccd7-75f9-336d-a870-d5bec70b5938
+[12:54:09] [Server thread/INFO]: chorus2 joined the game
+[12:54:09] [Server thread/INFO]: chorus2[/127.0.0.1:60172] logged in with entity id 304 at ([world]9.5, 72.0, 28.5)
+[12:54:16] [Server thread/INFO]: chorus2 lost connection: Disconnected
+[12:54:16] [Server thread/INFO]: chorus2 left the game
+[13:07:01] [User Authenticator #2/INFO]: UUID of player chorus2 is 9e7bccd7-75f9-336d-a870-d5bec70b5938
+[13:07:01] [Server thread/INFO]: chorus2 joined the game
+[13:07:01] [Server thread/INFO]: chorus2[/127.0.0.1:60322] logged in with entity id 370 at ([world]9.5, 72.0, 28.5)
+[13:07:59] [Server thread/INFO]: chorus2 was shot by Skeleton
+[13:08:44] [Server thread/INFO]: chorus2 lost connection: Disconnected
+[13:08:44] [Server thread/INFO]: chorus2 left the game
+[13:27:15] [Server thread/INFO]: Stopping the server
+[13:27:15] [Server thread/INFO]: Stopping server
+[13:27:15] [Server thread/INFO]: Saving players
+[13:27:15] [Server thread/INFO]: Saving worlds
+[13:27:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[13:27:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[13:27:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[13:27:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:27:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:27:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:27:20] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13:27:20] [Server thread/INFO]: Flushing Chunk IO
+[13:27:20] [Server thread/INFO]: Closing Thread Pool
+[13:27:20] [Server thread/INFO]: Closing Server

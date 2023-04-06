@@ -1,0 +1,59 @@
+[14:05:59] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14:05:59] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[14:06:00] [Worker-Main-3/INFO]: Loaded 7 recipes
+[14:06:01] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[14:06:01] [Server thread/INFO]: Loading properties
+[14:06:02] [Server thread/INFO]: This server is running Paper version git-Paper-790 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[14:06:02] [Server thread/INFO]: Debug logging is disabled
+[14:06:02] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:06:02] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:06:02] [Server thread/INFO]: Default game type: CREATIVE
+[14:06:02] [Server thread/INFO]: Generating keypair
+[14:06:02] [Server thread/INFO]: Starting Minecraft server on *:2202
+[14:06:02] [Server thread/INFO]: Using default channel type
+[14:06:03] [Server thread/INFO]: [Plugin] Loading Plugin v1.0
+[14:06:03] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:06:03] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:06:03] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:06:03] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:06:03] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:06:03] [Server thread/INFO]: Preparing level "world"
+[14:06:03] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:06:03] [Server thread/INFO]: Preparing spawn area: 0%
+[14:06:03] [Server thread/INFO]: Preparing spawn area: 0%
+[14:06:04] [Server thread/INFO]: Preparing spawn area: 22%
+[14:06:04] [Server thread/INFO]: Time elapsed: 1307 ms
+[14:06:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[14:06:04] [Server thread/INFO]: Preparing spawn area: 0%
+[14:06:05] [Server thread/INFO]: Preparing spawn area: 3%
+[14:06:05] [Server thread/INFO]: Time elapsed: 847 ms
+[14:06:05] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[14:06:05] [Server thread/INFO]: Preparing spawn area: 0%
+[14:06:05] [Worker-Main-1/INFO]: Preparing spawn area: 100%
+[14:06:05] [Server thread/INFO]: Time elapsed: 541 ms
+[14:06:05] [Server thread/INFO]: [Plugin] Enabling Plugin v1.0
+[14:06:06] [Server thread/INFO]: Running delayed init tasks
+[14:06:06] [Server thread/INFO]: Done (4.116s)! For help, type "help"
+[14:06:06] [Server thread/INFO]: Timings Reset
+[14:17:53] [User Authenticator #1/INFO]: UUID of player лалааь is 944e3443-7a43-3d24-9fa1-2f2f39e30726
+[14:17:53] [Server thread/INFO]: лалааь joined the game
+[14:17:53] [Server thread/INFO]: лалааь[/[0:0:0:0:0:0:0:1]:53357] logged in with entity id 147 at ([world]-3.5, 65.0, 123.5)
+[14:17:57] [Server thread/INFO]: лалааь lost connection: Disconnected
+[14:17:57] [Server thread/INFO]: лалааь left the game
+[16:05:45] [Server thread/INFO]: Stopping the server
+[16:05:45] [Server thread/INFO]: Stopping server
+[16:05:45] [Server thread/INFO]: [Plugin] Disabling Plugin v1.0
+[16:05:45] [Server thread/INFO]: Saving players
+[16:05:45] [Server thread/INFO]: Saving worlds
+[16:05:45] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:05:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:05:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[16:05:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:05:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[16:05:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:05:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:05:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:05:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:05:46] [Server thread/INFO]: Flushing Chunk IO
+[16:05:46] [Server thread/INFO]: Closing Thread Pool
+[16:05:46] [Server thread/INFO]: Closing Server

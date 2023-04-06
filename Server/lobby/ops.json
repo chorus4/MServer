@@ -1,0 +1,14 @@
+[
+  {
+    "uuid": "9e7bccd7-75f9-336d-a870-d5bec70b5938",
+    "name": "chorus2",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "a470cb76-634d-3d6f-b34e-019b9359e7a3",
+    "name": "chorus3",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
